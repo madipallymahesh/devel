@@ -2,7 +2,7 @@
 <project name="AntExample1" default="war">
 
 	<path id="compile.classpath">
-		<fileset dir="WebContent/WEB-INF/lib">
+		<fileset dir="WebContent/WEB-INF">
 			<include name="*.jar"/>
 		</fileset>
 	</path>
